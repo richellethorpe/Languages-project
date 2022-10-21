@@ -12,8 +12,9 @@ body {
 
 .jumbotron{
   margin-top: 20px;
-  background-color: rgb(120, 125, 114);
+  background-image: url("https://as1.ftcdn.net/v2/jpg/02/85/75/68/1000_F_285756894_QYWanPZVBRuMbsJWuY2sfb9FblmDtTM9.jpg");
   background-size: cover;
   text-align: center;
-  color: aliceblue;
+  color: white;
+  
 }
