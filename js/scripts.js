@@ -3,9 +3,9 @@ function hideResults(){
   document.getElementById("cSharp").setAttribute("class", "hidden");
   document.getElementById("css").setAttribute("class", "hidden");
   document.getElementById("ruby").setAttribute("class", "hidden");
+  document.getElementById("error").setAttribute("class", "hidden");
 
 }
-
 
 
 window.addEventListener("load", function () {
@@ -31,8 +31,8 @@ window.addEventListener("load", function () {
       document.getElementById("java").removeAttribute("class");
     } else if (radioButton === "gamer") {
       document.getElementById("ruby").removeAttribute("class");
-    }
-
+    } else {
+      document.getElementById("error-message").removeAttribute("class");
 
   }
   )
