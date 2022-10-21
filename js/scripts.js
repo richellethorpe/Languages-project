@@ -20,15 +20,21 @@ window.addEventListener("load", function () {
     const income =document.getElementById("money").value;
     const seasonS =document.getElementById("season").value;
     const favColor =document.getElementById("color").value;
-    document.querySelector(span#)
+    
+
+    if (radioButton === "exec") {
+      document.getElementById("cSharp").removeAttribute("class");
+    } else if (radioButton === "beachBum") {
+      document.getElementById("css").removeAttribute("class");
+    } else if (radioButton === "scholar") {
+      document.getElementById("java").removeAttribute("class");
+    } else if (radioButton === "gamer") {
+      document.getElementById("css").removeAttribute("class");
+    }
 
 
+  }
+  )
 
-
-
-
-  })
-}
-
-)
+})
 
