@@ -2,6 +2,7 @@ function hideResults(){
   document.getElementById("java").setAttribute("class", "hidden");
   document.getElementById("cSharp").setAttribute("class", "hidden");
   document.getElementById("css").setAttribute("class", "hidden");
+  document.getElementById("ruby").setAttribute("class", "hidden");
 
 }
 
@@ -29,7 +30,7 @@ window.addEventListener("load", function () {
     } else if (radioButton === "scholar") {
       document.getElementById("java").removeAttribute("class");
     } else if (radioButton === "gamer") {
-      document.getElementById("css").removeAttribute("class");
+      document.getElementById("ruby").removeAttribute("class");
     }
 
 
