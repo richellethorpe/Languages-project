@@ -5,15 +5,20 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/scripts.js"></script>
   <title>Programming Languages</title>
+
 </head>
 <body>
-  <div class="container text-center">
-    <h1> Welcome to the world of programing. Let us help you choose your track.</h1>
+  <div class="container">
+      <div class="jumbotron">
+        <h1> Welcome to the world of programing.</h1>
+        <h2>Let us help you choose your track.</h2>
+      </div>
+      
     <h2> First let's gather some information about you:</h2>
-      <div>
+    
         <form id="langSelect">
-          <label for="born">Date of birth:</label>
-          <input id="born" type="date">
+          <label for="date">Date of birth:</label>
+          <input id="date" type="date">
           <br>
           <label>
           <br>
@@ -54,7 +59,11 @@
           <button type="submit" class="button">Go!</button>
 
         </form>
-      </div>
-  </div>  
+
+        <div id="langResults" class="hidden">
+        <h2>Your suggested track:</h2>
+        </div>
+      
+  </div>
 </body>
 </html>

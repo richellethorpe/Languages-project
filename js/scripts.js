@@ -12,10 +12,13 @@ window.addEventListener("load", function () {
   form.addEventListener("submit", function(event) {
     event.preventDefault();
     hideResults();
-    const bDay = document.querySelector("input#born").value;
+    const bDay = document.getElementById("date").value;
     const radioButton = document.querySelector("input[name='lifeStyleType']:checked").value;
     const income =document.getElementById("money").value;
-    const 
+    const favColor =document.getElementById("color").value;
+    
+
+
 
 
 
