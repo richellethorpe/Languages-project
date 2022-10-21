@@ -9,71 +9,86 @@
 </head>
 <body>
   <div class="container">
-      <div class="jumbotron">
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-          <h1> Welcome to the world of programing.</h1>
-          <h2>Let us help you choose your track.</h2>
-        </div>
+    <div class="jumbotron">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <h1> Welcome to the world of programing.</h1>
+        <h2>Let us help you choose your track.</h2>
       </div>
+    </div>
       
     <h2> First let's gather some information about you:</h2>
     
-        <form id="langSelect">
-          <label for="date">Date of birth:</label>
-          <input id="date" type="date">
-          <br>
-          <label>
-          <br>
-          <p class="rich">Which lifestyle speaks to you?</p>
-            <input type="radio" name="lifeStyleType" value="exec">
-            High- Level Executive
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="lifeStyleType" value="beach bum">
-            Beach Bum
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="lifeStyleType" value="scholar">
-            Academic Scholar
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="lifeStyleType" value="gamer">
-            Gamer
-          </label>
-          <br>
-          How much money do you need to make to be happy:
-          <select id="money">
-            <option>I'm all about those dollar bills. I want a million or more</option>
-            <option>I need just one mansion</option>
-            <option>Middle class is a-okay with me</option>
-            <option>I am okay to live in my step-brother's cousins' basement</option>
-            <option>I can live in a van down by the river</option>
-          </select>
-          <br>
-          <br>
-          What is your favorite season?
-          <select id="season">
-            <option>Summer</option>
-            <option>Fall</option>
-            <option>Winter</option>
-            <option>Spring</option>
-          </select>
-          <br>
-          <br>
-          <label for="color">What is your favorite color?:</label>
-          <input id="color" type="color">
-          <br>
-          <br>
-          <button type="submit" class="button">Go!</button>
+    <form id="langSelect">
+      <label for="date">Date of birth:</label>
+      <input id="date" type="date">
+      <br>
+      <label>
+      <br>
+      <p class="rich">Which lifestyle speaks to you?</p>
+        <input type="radio" name="lifeStyleType" value="exec">
+        High- Level Executive
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="lifeStyleType" value="beach bum">
+        Beach Bum
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="lifeStyleType" value="scholar">
+        Academic Scholar
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="lifeStyleType" value="gamer">
+        Gamer
+      </label>
+      <br>
+      How much money do you need to make to be happy:
+      <select id="money">
+        <option>I'm all about those dollar bills. I want a million or more</option>
+        <option>I need just one mansion</option>
+        <option>Middle class is a-okay with me</option>
+        <option>I am okay to live in my step-brother's cousins' basement</option>
+        <option>I can live in a van down by the river</option>
+      </select>
+      <br>
+      <br>
+      What is your favorite season?
+      <select id="season">
+        <option>Summer</option>
+        <option>Fall</option>
+        <option>Winter</option>
+        <option>Spring</option>
+      </select>
+      <br>
+      <br>
+      <label for="color">What is your favorite color?:</label>
+      <input id="color" type="color">
+      <br>
+      <br>
+      <button type="submit" class="button">Go!</button>
 
-        </form>
+    </form>
 
-        <div id="langResults" class="hidden">
-        <h2>Your suggested track:</h2>
-        </div>
+    <div id="langResults" class="hidden">
+    <h2>Your suggested track:</h2>
+    </div>
+
+    <div id="css" class="hidden">
+      <h1>You are best suited for CSS. Looks like success!</h1>
+      <img src="img/css.jpeg" alt="a picture of CSS emblem">
+    </div>
+    <div id="cSharp" class="hidden">
+      <h1>You are best suited for C#.  And you look the part!</h1>
+      <img src="img/csharp.jpg" alt="a picture of C sharp emblem">
+    </div>
+    <div id="java" class="hidden">
+      <h1>You are best suited for JavaScript! With Java you'll be hotter than lava.</h1>
+      <img src="img/javascript.jpg" alt="a picture of javascript emblem">
+    </div>
+
+
       
   </div>
 </body>
