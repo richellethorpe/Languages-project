@@ -1,4 +1,4 @@
-# CR1-Portfolio
+# Language Selector
 #### By Richelle Thorpe
 #### This is an application that allows the user to recieve a unique answer regarding a coding language that they are best suited to based upon their responses to questions. This application uses event listeners, branching through JavaScript, and API selectors.
 
